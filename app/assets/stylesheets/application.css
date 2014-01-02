@@ -11,16 +11,57 @@
  *= require_self
  *= require_tree .
  */
+.topbar {
+	position: relative;
+	height: auto;
+	box-shadow: 0px 1px 10px #FFFFCC;
+	border-bottom: 1px solid #FFFFCC; 
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFCC;
+}
+header .topbar-inner {
+	background: none repeat scroll 0% 0% #FFFFCC;
+	background-color: #FFFFCC;
+	background-image: none;
+	background-repeat: repeat;
+	background-position: 0% 0%;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-size: auto auto;
+}
+
+.topbar-inner, .topbar .fill {
+	box-shadow: 2px 2px 4px FFCC99 inset;
+}
+
+.container:after {
+	clear:both;
+}
+
+.container:before,
+.container:after {
+	display: table;
+	content: "";
+}
+
+element {
+
+}
+
 ul
 {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
+	margin: 10;
+	padding: 10;
 }
 
 li
 {
 	display: inline;
+	margin: 0px 10px 0px 0px;
 
 }
+
+
 
